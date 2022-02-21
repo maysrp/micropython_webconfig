@@ -2,13 +2,15 @@
 
 ## 安装
 使用micropython下的异步web框架（nanoweb）在ESP8266 上使用web界面修改配置
- [NanoWeb](https://github.com/hugokernel/micropython-nanoweb)
- 下载[nanoweb.py ](https://github.com/hugokernel/micropython-nanoweb)
- 上传nanoweb.py 和web.py  
+ [NanoWeb](https://github.com/hugokernel/micropython-nanoweb)  
+ 
+ 下载[nanoweb.py ](https://github.com/hugokernel/micropython-nanoweb)  
+ 
+ 分别上传nanoweb.py 和web.py  
  
  如果esp8266上没有uasyncio库请先下载uasyncio（mpy1.14版本以下请不要使用该项目）(esp8266 esp01s没有该库)
  
- ### 按照uasyncio
+ ### 安装uasyncio
 首先将你的设备联网 步骤略
 
  ```
