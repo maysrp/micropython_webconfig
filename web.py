@@ -15,7 +15,7 @@ ha=["wifi","password","api","api2","ot"]
 def c_html(ea):
     html_b="""
     <html>
-        <head><meta charset="utf-8" /><title>设置你的micropython</title></head>
+        <head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1"><title>设置你的micropython</title></head>
         <body>
             <h1>你的配置更改位</h1>
             <ul>
@@ -37,7 +37,7 @@ def c_html(ea):
 def s_html(ha):
     html_b="""
     <html>
-        <head><meta charset="utf-8" /><title>设置你的micropython</title></head>
+        <head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1"><title>设置你的micropython</title></head>
         <body>
             <h1>设置你的micropython</h1>
             <form>
